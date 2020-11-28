@@ -1,3 +1,5 @@
+# first create all the function for basic calulator
+
 def add(n1,n2):
     return n1+n2
 
@@ -17,7 +19,7 @@ print('Welcome User :) \n'
       '3 . Multiplication\n'
       '4 . Division')
 
-ui = int(input("Select any one operation from 1 to 4"))
+ui = int(input("Select any one operation from 1 to 4")) # here ui means user_input 
 
 if ui>=5:
     print("Try Again!")
